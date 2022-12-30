@@ -1,14 +1,19 @@
 import Head from "next/head"
-import styles from "../styles/Home.module.css"
+import Header from "../components/Header"
+import Entrance from "../components/Entrance"
 
 export default function Home() {
     return (
-        <div className={styles.container}>
+        <div>
             <Head>
                 <title>Decentralized Powerball</title>
-                <meta name="description" content="A decentralized and automated powerball lottery" />
+                <meta
+                    name="description"
+                    content="A decentralized and automated powerball lottery"
+                />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+            <Header />
         </div>
     )
 }

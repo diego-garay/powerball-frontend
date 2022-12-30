@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.4.6",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
+    "framer-motion": "^6",
     "moralis": "^2.8.2",
     "moralis-v1": "^1.12.0",
     "next": "13.0.6",
